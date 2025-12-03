@@ -1,0 +1,17 @@
+h1{
+    color: red
+}
+.zwei, .eins{background: blue;
+    height:100px;
+    width:100px}
+    
+#id1{
+    background: red;
+    height:50px;
+    width:50px
+}
+#id2{
+    background: green;
+    height:50px;
+    width:50px
+}
