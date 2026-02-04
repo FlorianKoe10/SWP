@@ -1,38 +1,32 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 
-body > div, table {
-    margin-left:31vw;   
-    margin-right: auto;
-    max-width: 900px;    
-}
+
 
 .Bild4_1 img {
-    width: 200px;   
-    height: 370px;    
-    margin-left : 70px;  
-    margin-right: 35px;
+  width: 200px;
+  height: 370px;
+  margin-left: 70px;
+  margin-right: 35px;
 }
+
 hr {
-    width: 100%;
-    max-width: 600px;   
-    margin: 40px 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 40px 0;
 }
+
 .Bild7_1 img {
-    width: 600px;   
-    height: auto;      
+  width: 600px;
+  height: auto;
 }
 
-.Text43 {
-    margin-left: 547px;  
-}
 
-.Text54 {
-    margin-left: 50px;  
-    margin-top: 300px;
-} 
+.Seite4.bild {
+  margin-left: 50px;
+}
 
 .Bild1_1 img,
 .Bild2_1 img,
@@ -48,42 +42,49 @@ hr {
 }
 
 hr {
-  margin-bottom: 0;
+  margin-bottom: 0, 7;
 }
 
 p {
   margin-top: 0;
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   line-height: 0.3;
 }
 
-
-.bildundtext {
+.Seite4_block {
   display: flex;
 }
 
-.bildundtext2 {
+.Seite4_text2 {
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.Seite5Block {
   display: flex;
 }
 
-.Bild61 img {
-    width: 300px;   
-    height: auto;
-    margin-left: 20px;
+.Seite5Text {
+  margin-left: 40px;
+  margin-top: 300px;
 }
 
-.bildundtext3 {
+.Seite6Block {
   display: flex;
+  margin-top: 20px;
 }
 
-.Text64 {
-    margin-top: 63px;  
+.Seite6Text {
+  margin-left: 40px;
+  margin-top: 150px;
 }
 
-.Bild71 img {
-    width: 350px;   
-    height: auto;
-    margin-right: 20px;
+.Seite6Text2 {
+  margin-left: 10px;
+  margin-top: 20px;
 }
