@@ -31,7 +31,6 @@ hr {
 .Bild1_1 img,
 .Bild2_1 img,
 .Bild3_1 img,
-
 .Bild8_1 img,
 .Bild9_1 img,
 .Bild101 img {
@@ -46,15 +45,17 @@ hr {
 }
 
 p {
-  margin-top: 0;
-}
-
-p,
-h1,
-h2,
-h3 {
   line-height: 0.3;
 }
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
 
 .Seite4_block {
   display: flex;
