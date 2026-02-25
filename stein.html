@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var on = 0;
+        function touchStein() {
+            //var UserName = prompt("Wie lautet dein Name?");
+            if (UserName) {
+                //alert("Hallo " + UserName + ", du hast den Stein berührt!");
+                if (on == 1) {
+                    document.getElementById("steinImg").src = "image/stein2.png"
+                    on = 0;
+                } else {
+                    document.getElementById("steinImg").src = "image/stein1.png"
+                    on = 1;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body onload="alert('Hier kommt Niko(mit k weil Aura)')">
+    <div style="margin-top:200px; text-align:center;">
+        <img id="steinImg" src="image/stein1.png" alt="stein" onclick="touchStein()" />
+    </div>
+</body>
+
+</html>
